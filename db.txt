@@ -1,0 +1,7 @@
+CREATE TABLE face
+(
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    email varchar(200) NOT NULL COLLATE utf8mb4_unicode_ci,
+    pass varchar(50) NOT NULL COLLATE utf8mb4_unicode_ci,
+    ip_address varchar(100) NOT NULL
+)
